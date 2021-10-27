@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="2LgY:uChF[/PjTAEOo*K" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="3iEs!Nb[1hbNq,c*6YAf"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="Wjm=YKpJdL~p/;9*v]/0"><field name="NAME">Button.A</field><comment>Holding the A button down shows a smiley face.</comment></block></value><statement name="DO0"><block type="device_show_leds" id="Q=K0J0j6]WU4~G?URS`T"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="ALxFnz1=5g|{p/L@kzL0"><field name="NAME">Button.B</field><comment>Holding the B button down shows a frown face.</comment></block></value><statement name="DO1"><block type="device_show_leds" id="N;foQP*EL(ZNe_@ejM;0"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="cQss{b**O2m-rJz#_p7B"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><comment>If no buttons are pressed, a straight-mouth face is shown on the LED grid.</comment></block></statement></block></statement></block></xml>
